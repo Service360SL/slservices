@@ -1,0 +1,88 @@
+.navbar {
+  padding: 0;
+  justify-content: space-between;
+  background: none !important;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  height: auto;
+  text-transform: uppercase;
+  font-weight: 600;
+  height: auto;
+  padding: 0;
+  font-size: 22px;
+  line-height: 1.6;
+}
+
+.navbar-collapse {
+  flex-grow: 0;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 600;
+}
+
+.navbar-collapse .navbar-nav {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.navbar-collapse a:last-child {
+  padding-right: 0;
+}
+
+.navbar-collapse a {
+  position: relative;
+}
+
+.navbar-collapse a:hover,
+.navbar-collapse a.active {
+  background: none;
+  color: #f64b4b;
+}
+
+.navbar-collapse a:hover:before,
+.navbar-collapse a.active:before {
+  right: 7px;
+  left: 8px;
+  opacity: 1;
+}
+
+@media (min-width: 992px) {
+  .navbar-collapse a:before {
+    content: "";
+    background: #292d32;
+    height: 1px;
+    position: absolute;
+    bottom: 7px;
+    left: -20px;
+    right: 100%;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    opacity: 0;
+  }
+
+  .navbar-collapse .dropdown-menu a:before {
+    content: none;
+  }
+
+  .navLink {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #000;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+}
+
+.navLink .nav-link {
+  color: #000;
+  font-size: 1rem;
+}
+
+.logo {
+  width: auto;
+  height: 80px;
+}

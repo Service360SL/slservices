@@ -1,0 +1,27 @@
+.custom-button {
+    display: flex;
+    background-color: #ccc;
+    color: #000000;
+    padding: 8px 20px;
+    font-size: 16px;
+    font-weight: 800;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.2s;
+    margin-left: 20px;
+}
+
+.custom-button:hover {
+    background-color: #fff;
+    color: #07367c;
+}
+
+.selectionpanel {
+    display: flex;
+    align-items: center;
+  } 
+  
+
+  

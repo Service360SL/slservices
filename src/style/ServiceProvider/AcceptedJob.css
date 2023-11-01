@@ -1,0 +1,70 @@
+/* JOB DETAILS */
+
+.AcceptedJobDetails-images-value-img{
+    width: 95%;
+    height: 95%;
+    object-fit: cover;
+    border-radius:7px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px #ccc;
+}
+
+@media only screen and (max-width:500px) {
+    .AcceptedJobDetails-images-container-box{
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    .AcceptedJobDetails-images-value-img{
+        margin-bottom: 10px;
+        
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .AcceptedJobDetails-Col-container{
+        flex-direction: column;
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .AcceptedJobDetails-title{
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:992px) {
+    .AcceptedJobDetails-title{
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (min-width:992px) {
+    .AcceptedJobDetails-details-container span{
+        font-size: 1.1rem;
+    }
+
+    .AcceptedJobDetails-title{
+        font-size: 1.7rem !important;
+    }
+}
+
+.AcceptedJobDetails-apply-btn{
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:650px) {
+    .AcceptedJobDetails-button-container{
+        flex-direction: column !important;
+    }
+    .AcceptedJobDetails-start{
+        width: 100% !important;
+        margin-top: 5px;
+    }
+    .AcceptedJobDetails-end{
+        width: 100% !important;
+        margin-top: 5px;
+    }
+}

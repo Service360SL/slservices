@@ -1,0 +1,120 @@
+.custodo{
+  background-image: url("../../assets/images/header/Background.png");
+  border: 2px solid #ccc;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.custodo h4{
+  font-weight: bold;
+  line-height: 2px;
+}
+
+.custodo p{
+  color: rgb(165, 164, 162);
+  line-height: 5px;
+  font-size: 14px;
+}
+
+.castodolist{
+  margin-top: 25px;
+  justify-content: center;
+  width: 100%;
+  margin: 0, auto;
+  background-color: rgb(221, 219, 219);
+}
+
+.check-icon, .check-icon2  {
+  cursor: pointer;
+  font-size: 14px;
+  justify-content: center;
+  padding-right: 20px;
+}
+
+.check-icon.completed,
+.check-icon2.completed {
+  color: rgb(130, 133, 130); 
+}
+
+.completedTasks h5{
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #474747;
+}
+
+.cusmodaltitle{
+  background-color: black;
+  color: white;
+  height: 50px;
+}
+
+.cusmodbody{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:70px
+}
+
+.bgimagetodo{
+  background-image: url("../../assets/images/header/Background.png");
+}
+
+.custodobut1,
+.custodobut2 {
+  display: flex;
+  justify-content: center;
+  background-color: #292d32;
+  color: #fff;
+ 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.custodobut1:hover,
+.custodobut2:hover{
+  background-color: #fff;
+  border-color: #2596be;
+  color: #9f390d;
+}
+
+/* todobutton */
+.task-container{
+  display: flex;
+  align-items: center;
+}
+
+.task-text {
+  flex-grow: 1; /* Allow the text to take up remaining space */
+  margin-right: 10px; /* Add some spacing between the icon and text */
+}
+
+.scanbtn{
+  position: absolute;
+  top: 25%;
+  right: 5%;
+  /* display: flex; */
+  gap: 15px;
+  align-items: flex-end;
+  display: flex;
+  justify-content: center;
+  /* margin-left: left; */
+  gap: 15px;
+  background-color: #292d32;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.scanbtn:hover{
+  background-color: #6e6e6e;
+  border-color: none;
+  color: #ffffff;
+}
+
+
+

@@ -1,0 +1,78 @@
+
+.notification-container {
+    border: 1px solid #ccc;
+    /* margin-bottom: 20px; */
+
+  }
+
+  .notification-header{
+    height: fit-content;
+
+  }
+
+  .noti-time{
+    text-align: right;
+  }
+  
+
+  .notification-title {
+    font-size: 1.2rem;
+    /* margin-bottom: 5px; */
+  }
+
+  .notification-message {
+    font-size: 1rem;
+  }
+
+  .notiFrontbut{
+    all: unset;
+    background-color:#292D32;
+    color: white;
+    border-radius: 0.4em;
+    padding: 0.1em;
+  }
+
+  .notiFrontbut:hover{
+    color: #000000;
+    font-weight: bold;
+    border: 1px solid #292D32;
+    background-color: unset;
+  }
+
+  .notificationDangerBut {
+    all: unset;
+    background-color: rgb(78, 4, 4);
+    color: white;
+    padding: 0.1em;
+    border-radius: 0.4em;
+  }
+  
+  .notificationDangerBut:hover {
+    color: #000000;
+    font-weight: bold;
+    border: 1px solid rgb(78, 4, 4);
+    background-color: unset;
+  }
+  
+
+  .notiGoodBut {
+    all: unset;
+    font-weight: bold;
+    background-color: rgb(13, 100, 69);
+    color: white;
+    padding: 0.1em;
+    border-radius: 0.4em;
+  }
+  
+  .notiGoodBut:hover {
+    color: rgb(13, 100, 69);
+    border: 1px solid rgb(13, 100, 69);
+    background-color: unset;
+  }
+
+  .markAllNoti:hover{
+    color: #000000;
+    font-weight: bold;
+    /* border: 1px solid #292D32; */
+    background-color: unset;
+  }

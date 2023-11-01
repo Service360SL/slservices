@@ -1,0 +1,86 @@
+@media (max-width: 768px) {
+  .AdsViewCont {
+    flex-direction: column-reverse;
+  }
+}
+
+.AdsRowImg {
+  max-width: 40em;
+}
+
+.AdsColImg {
+  max-width: 8em;
+}
+.AdDisableBut {
+  all: unset;
+  background-color: rgb(182, 14, 14);
+  color: white;
+  padding: 0.4em;
+}
+.AdDeleteBut {
+  color: rgb(182, 14, 14);
+  padding: 0.4em;
+}
+
+.AdCancel {
+  all: unset;
+  background-color: #292d32;
+  color: white;
+  padding: 0.4em;
+}
+
+.AdDeleted {
+  all: unset;
+  background-color: rgb(78, 4, 4);
+  color: white;
+  padding: 0.4em;
+}
+
+.AdDeleted:hover {
+  color: #000000;
+  font-weight: bold;
+  border: 1px solid rgb(78, 4, 4);
+  background-color: unset;
+}
+
+.AdEditBut{
+  color:  rgb(13, 100, 69);
+}
+
+.AdEditBut:hover {
+  color: #000000;
+  /* scale: 1.05; */
+}
+
+.AdDeleteBut:hover {
+  color: #000000;
+  font-weight: bold;
+  /* scale: 1.1; */
+  /* border: 1px solid  rgb(78, 4, 4); */
+  background-color: unset;
+}
+
+.AdDisableBut:hover {
+  color: #000000;
+  font-weight: bold;
+  border: 1px solid rgb(78, 4, 4);
+  background-color: unset;
+}
+
+.AdEnableBut {
+  all: unset;
+  font-weight: bold;
+  background-color: rgb(13, 100, 69);
+  color: white;
+  padding: 0.4em;
+}
+
+.AdEnableBut:hover {
+  color: rgb(13, 100, 69);
+  border: 1px solid rgb(13, 100, 69);
+  background-color: unset;
+}
+
+.AdrejectP {
+  color: rgb(78, 4, 4);
+}

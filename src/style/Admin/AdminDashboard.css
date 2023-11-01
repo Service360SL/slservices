@@ -1,0 +1,256 @@
+.block {
+  padding: 20px 0;
+}
+
+.dashboard-block {
+  background: #f2f2f2;
+  border-radius: 15px;
+}
+
+.dashboard-block .row {
+  margin-bottom: 50px;
+}
+
+.dashboard-block .row:last-child {
+  margin-bottom: 0;
+}
+
+.dashboard-block .holder {
+  background: #fff;
+  padding: 15px;
+  transition: box-shadow 0.3s linear;
+}
+
+.dashboard-block .holder:hover {
+  box-shadow: 0 0 30px 0 #d9d9d9;
+}
+
+.dashboard-block .card {
+  border: 0;
+}
+
+.dashboard-block .card-body {
+  padding: 0;
+}
+
+.dashboard-block img {
+  height: 90px;
+  width: 90px;
+  margin: 0 0 15px;
+}
+
+.dashboard-block .cardflex {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.pie-chart-container {
+  width: 100%;
+  height: 300px;
+}
+
+@media only screen and (max-width: 576px) {
+  .dashboard-block .card {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 280px;
+    box-shadow: 2px 0px 4px 0px #888888;
+  }
+
+  .dashboard-block h2 {
+    font-size: 38px;
+    font-weight: normal;
+  }
+
+  .pie-chart-container {
+    height: 250px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px){
+  .dashboard-block .card {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    box-shadow: 2px 0px 4px 0px #888888;
+  }
+  .dashboard-block .card:hover {
+    transform: scale(1.01);
+    cursor: pointer;
+  }
+
+  .dashboard-block h2 {
+    font-size: 38px;
+    font-weight: normal;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+  .dashboard-block .card {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    box-shadow: 2px 0px 4px 0px #888888;
+  }
+  .dashboard-block .card:hover {
+    transform: scale(1.01);
+    cursor: pointer;
+  }
+
+  .dashboard-block h2 {
+    font-size: 38px;
+    font-weight: normal;
+  }
+}
+
+@media (min-width: 992px) {
+  .dashboard-block .card {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    box-shadow: 2px 0px 4px 0px #888888;
+  }
+  .dashboard-block .card:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+  }
+
+  .dashboard-block .btn {
+    width: 250px;
+  }
+
+  .btn-effect {
+    width: 100px;
+  }
+
+  .btn-effect2 {
+    width: 100px;
+  }
+
+  .dashboard-block h2 {
+    font-size: 38px;
+    font-weight: bold;
+  }
+
+  .dashboard-block .card-body {
+    width: 100%;
+  }
+
+  .btn-effect3 {
+    width: 100px;
+    border: none;
+    border-color: none;
+    border-radius: 5px;
+  }
+}
+
+.title-hold {
+  text-align: center;
+}
+
+.title-hold h2 {
+  margin: 0 0 5px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #9f390d;
+}
+
+.nav-tabs .nav-link {
+  position: relative;
+  color: #333;
+  font-weight: 400;
+  border: none;
+}
+
+.nav-tabs .active::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: green;
+}
+
+.nav-tabs .nav-link.active {
+  font-weight: 600;
+  color: rgb(29, 29, 151);
+}
+
+.hover-effect:hover {
+  transform: scale(1.03);
+}
+
+.btn-effect {
+  background: #292d32;
+  color: #fff;
+}
+
+.btn-effect:hover {
+  background: #fff;
+  border-color: #2596be;
+  color: #9f390d;
+}
+
+.btn-effect2 {
+  background: #ccc;
+  color: #000;
+  font-weight: bold;
+}
+
+.btn-effect2:hover {
+  background: #fff;
+  border-color: #2596be;
+  color: #9f390d;
+}
+
+.btn-effect3 {
+  background: #687699;
+  color: #fff;
+}
+
+.btn-effect3:hover {
+  background: #fff;
+  border-color: #2596be;
+  color: #9f390d;
+}
+
+.chart-title {
+  text-align: start;
+  margin-bottom: 20px;
+}
+
+.dashboard-container {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.donut-value {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.custom-table-style,
+.custom-table-style > thead > tr > th,
+.custom-table-style > tbody > tr,
+.custom-table-style > tbody > tr > td {
+  background-color: transparent !important;
+}

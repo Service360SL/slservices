@@ -1,0 +1,222 @@
+.hide-navigation-icons .carousel-control-prev,
+.hide-navigation-icons .carousel-control-next,
+.hide-navigation-icons .carousel-indicators {
+  display: none;
+}
+
+.aboutUs-block {
+    /* margin: 65px 0 0; */
+  }
+  
+  .aboutUs-block .carousel {
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .aboutUs-block .carousel .carousel-item {
+    width: 100%;
+    height: 100vh; 
+  }
+  
+  .aboutUs-block .carousel .carousel-item img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .aboutUs-block .carousel-item:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .aboutUs-block .carousel-caption {
+    left: 25%;
+    right: 25%;
+    transform: translateY(50%);
+    -webkit-transform: translateY(50%);
+    bottom: 50%;
+  }
+  
+  
+  #AboutUsP {
+    position: relative;
+    color: #ffffff;;
+    font-size: 8em;
+    font-weight: bold!important;
+    font-family: "Anonymous Pro", monospace!important;
+    letter-spacing: 7px!important;
+    overflow: hidden;
+    border-right: 2px solid hsl(0, 0%, 0%);
+    white-space: nowrap;
+  }
+
+  .P360{
+    font-size: 1em;
+    
+  }
+
+  .AboutDisP{
+    position: relative;
+    color: hsl(0, 0%, 100%);
+    font-size: 1.4em;
+    font-family: 'Rubik', sans-serif;
+    overflow: hidden;
+    /* border: 2px solid hsl(0, 0%, 100%); */
+   
+  }
+  .AboutPoinsP{
+    all: unset;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.6em;
+    /* font-weight: bold; */
+  }
+
+  .AboutBenP{
+    all: unset;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.4em;
+  }
+
+  .AboutSubHeading{
+    font-size: 2em;
+  }
+  
+  @keyframes typewriter {
+    from {
+      width: 0;
+    }
+    to {
+      width: 710px;
+    }
+  }
+  
+  @keyframes blinkTextCursor {
+    from {
+      border-right-color: hsl(0, 0%, 0%);
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }
+  
+  /* Apply typewriter and cursor animations */
+  .typewriter {
+    animation: typewriter 2s steps(20) 1s 1 normal both, blinkTextCursor 500ms infinite;
+  }
+  
+  .typing-done {
+    border-right: none;
+  }
+
+
+  @media screen and (max-width: 1024px) {
+    #AboutUsP {
+      font-size: 4em; /* Adjust font size for smaller screens */
+    }
+    .AboutDisP{
+        font-size: 0.8em;
+    }
+
+    .AboutPoinsP{
+        font-size: 0.5em;
+    }
+    
+    @keyframes typewriter {
+      from {
+        width: 0;
+      }
+      to {
+        width: 400px; /* Adjust the width for smaller screens */
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    
+    .AboutSectionCont{
+      flex-direction: column;
+    }
+      .AboutPoinsP{
+          font-size: 1em;
+      }
+
+      .AboutSubHeading{
+        font-size: 1.4em;
+      }
+      .AboutBenP{
+        font-size: 1em;
+      }
+      .AboutContentContainer {
+        order: 2; /* Move the content to come after the image */
+      }
+    
+      .AboutImageContainer {
+        order: 1; /* Move the image to come before the content */
+      }
+    }
+
+  @media screen and (max-width: 422px) {
+    #AboutUsP {
+      font-size: 2em; /* Adjust font size for smaller screens */
+    }
+    .AboutDisP{
+        font-size: 0.5em;
+    }
+    .AboutPoinsP{
+        font-size: 1em;
+    }
+    .AboutSubHeading{
+      font-size: 1em;
+    }
+
+    .AboutBenP{
+      font-size: 0.5em;
+    }
+    
+    @keyframes typewriter {
+      from {
+        width: 0;
+      }
+      to {
+        width: 220px; /* Adjust the width for smaller screens */
+      }
+    }
+  }
+
+  .AboutContentContainer {
+    flex: 1;
+    /* padding: 3rem; */
+    /* background-image: url(${backgroundImage}); */
+    /* background-size: cover; */
+  }
+  
+  .AboutImageContainer {
+    flex: 1;
+  }
+  
+  .AboutTitleImg {
+    width: 100%;
+    height: auto;
+  }
+
+  
+
+  .AboutSBut{
+    all: unset;
+    color: #ffffff;
+    padding: 1em;
+    background-color: #292D32;
+  }
+
+  .AboutSBut:hover{
+    opacity: 0.9;
+  }
+ 
+
+ 
+  

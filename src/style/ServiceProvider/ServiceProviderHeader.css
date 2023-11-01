@@ -1,0 +1,134 @@
+.navbar {
+    padding: 0;
+    justify-content: space-between;
+    background: none !important;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand {
+    height: auto;
+    padding: 0;
+    font-size: 23px;
+    line-height: 1.6;
+  }
+  
+  .navbar-collapse {
+    flex-grow: 0;
+  }
+  
+  .navbar-collapse .navbar-nav {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  
+  .navbar-collapse a:last-child {
+    padding-right: 0;
+  }
+  
+  .navbar-collapse a {
+    position: relative;
+    font-family: 'Rubik', sans-serif;
+  }
+  
+  .navbar-collapse a:hover,
+  .navbar-collapse a.active {
+    background: none;
+    color: #f64b4b;
+  }
+  
+  .navbar-collapse a:hover:before,
+  .navbar-collapse a.active:before {
+    right: 7px;
+    left: 8px;
+    opacity: 1;
+  }
+  
+  .navbar-collapse a:before {
+    content: "";
+    background: #292d32;
+    height: 1px;
+    position: absolute;
+    bottom: 7px;
+    left: -20px;
+    right: 100%;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    opacity: 0;
+  }
+  
+  .dropdown-menu a.dropdown-item:hover {
+    background-color: transparent !important;
+  }
+  
+  .navLink {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #000;
+    font-size: 1rem;
+    cursor: pointer;
+    font-family: 'Rubik', sans-serif;
+  }
+  
+  .navLink .nav-link {
+    color: #000;
+    font-size: 1rem;
+  }
+  
+  .logo {
+    width: auto;
+    height: 70px;
+    margin: 15px 0px;
+    position: relative;
+    left: 0px;
+  }
+
+  /* @media only screen and (min-width : 992px){
+    .logo {
+        width: auto;
+        height: 70px;
+        margin: 15px 0px;
+        position: relative;
+        left: -100px;
+      }
+  } */
+  
+  .bell {
+    width: auto;
+    height: 17px;
+  }
+
+  .chat {
+    width: auto;
+    height: 16px;
+  }
+
+@media only screen and (max-width : 992px){
+    .profileIcon {
+        display: none;
+    }
+    .container{
+      padding-bottom: 15px;
+    }
+}
+
+  .profileIcon {
+    width: auto;
+    height: 38px;
+    position: relative;
+    top:-2px;
+    border-radius: 60%;
+    object-fit: cover;
+  }
+  
+@media only screen and (min-width: 992px){
+  .navbar-expand-lg .navbar-nav .nav-link {
+      padding-right: 15px;
+      padding-left: 24px;
+  }
+  .profileIcon{
+    margin-left: 5px;
+  }
+}
+

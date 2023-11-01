@@ -1,0 +1,247 @@
+@media only screen and (max-width: 552px) {
+    .MyProjectsSearch{
+        width: 100%;
+    }
+
+    .MyProjects-bottom-nav{
+        flex-direction: column !important;
+    }
+}
+
+/* my-jobCard */
+
+.single-my-job-card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    width: 30%;
+    height: 30%;
+    margin-bottom: 20px;
+    padding: 20px 20px 0 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform .3s;
+}
+
+.single-my-vacancy-card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    width: 30%;
+    height: 30%;
+    margin-bottom: 20px;
+    padding: 20px 20px 0 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform .3s;
+}
+
+@media only screen and (max-width: 1070px) {
+    .single-my-job-card{
+        width: 100% !important;
+    }
+}
+
+.single-my-vacancy-card:hover{
+    transform: scale(1.005);
+    z-index: 2;
+    border: 0.2px solid #29435cf0;
+}
+
+
+.single-my-job-card:hover{
+    transform: scale(1.005);
+    z-index: 2;
+    border: 0.2px solid #29435cf0;
+}
+
+.my-job-card-avatar{
+    width: 45px;
+    height: 42px;
+    border-radius: 20px;
+    position: relative;
+    top:5.5px;
+}
+
+@media only screen and (max-width: 465px){          
+    .my-job-card-avatar{
+        width: 42px;
+        height: 40px;
+        border-radius: 20px;
+        position: relative;
+        top:5.5px;
+    }
+}
+
+@media only screen and (max-width: 765px){          
+    .invite-header-container{
+        flex-direction: column !important;
+    }
+}
+
+@media only screen and (max-width: 465px){          
+    .isquatation{
+        flex-direction: column !important;
+    }
+}
+
+.my-job-card-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.my-job-card-header-inner-col{
+    display: flex;
+    flex-direction: column !important;
+    justify-content: space-between;
+    width: 100% !important;
+    margin-bottom: 15px;
+    margin: 0px;
+}
+
+.my-job-card-title{
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 1px;
+    margin-bottom: 2px;
+}
+
+.my-job-card-customer-name{
+    font-size: 14px;
+    font-weight: 400;
+    color: #5f7085;
+    margin-bottom: 0px;
+}
+
+.my-job-card-viewmore{
+    font-size: 14px;
+    font-weight: 400;
+    color: #5f7085;
+    margin-bottom: 0px;
+}
+
+.my-job-card-header i{
+    font-size: 14px;
+    font-weight: 400;
+    color: #5f7085;
+    margin-bottom: 0px;
+}
+
+#Single-item-Dropdown{
+    margin-right: 10px;
+}
+
+
+.my-job-card-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.single-my-job-status{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 4px 6px;
+    border: 2px solid rgb(37, 199, 37);
+    border-radius: 8px;
+}
+
+.single-my-job-title{
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.sinlge-my-job-sub-info{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.my-job-location-info{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.single-my-job-description{
+    font-size: 17px;
+    font-weight: 900;
+}
+
+/* .my-job-card-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    bottom: 10px;
+    vertical-align: middle;
+} */
+
+@media only screen and (max-width: 750px){
+    .my-job-card-footer{
+        display: flex;
+        flex-direction: column !important;
+        /* justify-content: space-between; */
+        width: 100%;
+        position: relative;
+        bottom: 3px;
+        /* margin-top: 15px; */
+    }
+}
+
+
+@media only screen and (max-width: 450px){
+    .my-job-card-footer-btn{
+        width: 100%;
+    }
+
+    .my-jobs-page-btn-label{
+        display: none !important;
+    }
+}
+
+.my-jobs-page-btn-label {
+    position: relative;
+    left: -12px;
+    display: inline-block;
+    padding: 6px 12px;
+    background: rgba(0,0,0,0.10);
+    border-radius: 3px 0 0 3px;
+  }
+  
+
+
+/* .my-job-card-footer-btn{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    font-size: 12px;
+    font-weight: 620;
+    cursor: pointer;
+    margin: auto;
+}
+
+.my-job-card-footer-btn:hover{
+    color: #5f7085;
+} */
+
+
+@media only screen and (max-width: 565px){          
+    .job-card-header-inner-container{
+        flex-direction: column !important;
+    }
+
+    /* .rounded-circle{
+        margin-left: -30px;
+    } */
+    
+    .my-projects-jobs-rounded-circle{
+        margin-left: -30px;
+    }
+}
+
+.my-job-card-footer .btn {
+    border: var(--bs-btn-border-width) !important;
+}

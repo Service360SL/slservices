@@ -1,0 +1,146 @@
+.location-popup,
+.Filter-popup {
+  display: none;
+}
+
+/* locationsetup */
+.scrollable-content {
+  max-height: 380px;
+  overflow-y: auto;
+}
+
+.cusmodalcontent {
+  background-image: url("../../assets/images/header/Background.png");
+  height: auto;
+}
+
+.cuslocsearch {
+  border-radius: 10px;
+}
+
+.cuslocpopup {
+  background-color: black;
+  color: white;
+  height: 50px;
+}
+
+.PlaceList {
+  list-style: none;
+  padding: 0;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+
+.PlaceList li {
+  font-size: 16px;
+  margin-bottom: 12px;
+  margin-bottom: 5px;
+}
+
+.PlaceList li:hover{
+  background-color: rgb(230, 230, 230);
+  color: #813613;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.PlaceList li.selected {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+/*.Filter-popup.open {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}*/
+
+
+
+/*.popup-content {
+  width: 500px;
+  height: 600px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}*/
+
+/*.popup-content h2 {
+  font-family: roboto;
+  font-size: 25px;
+}*/
+
+.top {
+  display: flex;
+}
+/*FilterpopUp*/
+.button-group-bottom {
+  display: flex;
+  justify-content: center;
+}
+
+.btn2{
+  padding-left: 10px;
+}
+
+.btn1,
+.btn2 {
+  display: flex;
+  justify-content: center;
+  background-color: #292d32;
+  color: #fff;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.btn1:hover,
+.btn2:hover{
+  background-color: #fff;
+  border-color: #2596be;
+  color: #9f390d;
+}
+
+.cusfilterbutt .dropdown-item {
+  color: black; /* Change the text color of dropdown options */
+  background-color: rgb(255, 252, 252); /* Change the background color of dropdown options */
+}
+
+.cusfilterbutt .dropdown-item:hover {
+  background-color: gray; /* Change the background color of dropdown options on hover */
+}
+
+.cusfilterbutt .dropdown-toggle{
+  background-color: #292d32; 
+  border: none;
+}
+/* If you want to style the split part of the dropdown toggle separately */
+.cusfilterbutt .dropdown-toggle::after {
+  border-top-color: rgb(255, 255, 255); /* Change the color of the split arrow */
+}
+
+
+
+
+/* 
+expand the scope
+Dynamic QR code
+Mobile responsive webpages*/
+
+/* demo 
+deployment readiness - how to deploy
+set deployment plan, cost
+
+git colabration
+complete sign up login
+front end 60-80%
+*/

@@ -1,0 +1,119 @@
+.flex-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start; 
+  }
+  
+  
+  
+  /* .sidebar-wrapper {
+    flex: 0 0 300px; 
+  }
+   */
+  .form{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* margin-right: 150px;
+    margin-left: 150px; */
+  }
+  
+  
+  
+  .profile-wrapper {
+    flex: 1; 
+    margin-left: 50px;
+    margin-top: 0px;
+    margin-right: 100px;
+  }
+  
+  
+  
+  .topProfile{
+    display: flex;
+    align-items: center; 
+    justify-content: flex-end;
+  }
+  
+  .Profile{
+    margin-top: -20px;
+    margin-right: 350px;
+    font-size: 70px;
+  }
+  
+  
+  .profile-picture-label {
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: 0px;
+    font-size: 20px;
+  }
+  
+  .profileIcon {
+    display: block;
+    margin-left: auto;
+    margin-right: 10px;
+  }
+  
+  .start{
+    margin-left: 50px;
+  }
+  
+  .name-container{
+    display:flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 50px;
+  }
+  
+  
+  .lName{
+    margin-left: 45px;
+    /* margin-bottom: 20px; */
+  
+  }
+  
+  .address{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    /* width:800px */
+  }
+
+  .contactNumber,
+  .mail,
+  .word,
+  .newWord,
+  .confirmWord{
+    margin-top: 20px;
+    /* width : 800px; */
+  }
+/*   
+  .word{
+    width :700px;
+  } */
+
+  .button{
+    display: flex;
+    align-items: center; 
+   
+    margin-top: 50px;
+    margin-bottom: 0px;
+    
+  
+  }
+
+  
+  .cancel{
+   margin-right: 350px;
+   background-color: #292D32;
+   width: 70%;
+  }
+
+  .edit{
+    margin-right: 400px;
+    background-color: #292D32;
+    /* width: 100px; */
+
+  } 
+
+  
+  

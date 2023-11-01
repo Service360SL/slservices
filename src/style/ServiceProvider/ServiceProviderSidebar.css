@@ -1,0 +1,75 @@
+.nav-pills li a:hover {
+  background-color: #303841;
+}
+
+@media only screen and (max-width: 992px) {
+  .nav-pills li a:hover {
+    padding-left: 16px;
+    width: 65px;
+  }
+
+  #nav-single-element {
+    padding-left: 5px;
+  }
+
+  #basic-nav-dropdown:hover {
+    width: 0px;
+  }
+
+  .nav-link-sidebar {
+    transition: none;
+  }
+}
+
+span {
+  font-size: 1rem;
+  font-family: 'Rubik', sans-serif;
+}
+
+.sub-item-nav {
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.sidebar-content {
+  width: 100%; /* Set a default width */
+}
+
+/* @media only screen and (max-width: 992px) {
+  .submenu-active .sidebar-content {
+    width: 250px;
+  }
+} */
+
+.custom-icon-size {
+  font-size: 80%;
+}
+
+.custom-dropdown .dropdown-toggle::after {
+  color: white;
+}
+
+.custom-dropdown .bi-file-earmark-post {
+  color: white;
+  margin-left: -15px;
+}
+
+.custom-dropdown .bi-people {
+  color: white;
+  margin-left: -15px;
+}
+
+.nav-pills {
+  --bs-nav-pills-link-active-bg: transparent;
+  margin-right: 1.5px;
+}
+
+@media only screen and (max-width: 992px) {
+  .nav-pills {
+    margin-right: -25px;
+  }
+}
+
+.side-bar-sub-container {
+  background-color: #282b3d;
+}

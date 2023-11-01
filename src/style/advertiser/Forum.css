@@ -1,0 +1,92 @@
+@media (max-width: 768px) {
+    .AdsSearchRow{
+        display: grid;
+    }
+
+    .forumImage{
+        display: none;
+    }
+
+    .ForumFotter{
+        display: flex;
+    }
+    .EmptyColForum{
+        display: none;
+    }
+
+}
+
+.AdCategeroy{
+    all:unset;
+    font-size: xx-small;
+    background-color: #b8b0b0;
+    padding: 0.2em;
+    border-radius: 0.6em;
+    color: #000000;
+    font-weight: bold;
+}
+
+
+.SingleForumCont{
+    color: #FFFFFF;
+    background-color: #282b3d;
+    padding: 0.5em;
+    /* padding-left: 1em;
+    padding-right: 1em; */
+}
+
+.SingleForumCont:hover{
+    scale: 1.005;
+
+}
+.ForumFotter{
+    /* height: 100%; */
+    display: flex;
+    /* align-items: flex-end; */
+    /* align-content: flex-end; */
+    justify-content: flex-end;
+}
+
+.ForumDiv{
+    display: grid;
+    gap: 1em;
+}
+
+.Forumtitle{
+    font-size: medium;
+    /* color:#292D32; */
+}
+
+.forumImage{
+    max-width: 14em;
+}
+
+.CreateForumDiv{
+    padding: 0.4em;
+}
+
+.InnerCreateForum{
+    padding: 2em;
+    background-color: #FFFFFF;
+}
+
+.AskQ{
+    font-size: x-large;
+    font-weight: bold;
+    color: #292D32;
+}
+
+.AskQPop{
+    font-size: xx-large;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.AdAstric{
+    color: #ff0000;
+}
+
+
+
+
+

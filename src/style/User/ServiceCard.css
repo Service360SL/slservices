@@ -1,0 +1,271 @@
+/* bodyNav */
+
+#navbarScroll{
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+}
+
+.nav-search{
+    position: relative;
+    left: 6px;
+    display: flex;
+}
+
+#view-sp-button {
+    position: relative;
+    left: -12px;
+    background-color: #5f7085;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    border-radius:40px;
+    border-radius: 0px 8px 8px 0px;
+    cursor: pointer;
+  }
+
+@media only screen and (min-width:623px) and (max-width: 1100px){
+    #navbarScroll{
+        justify-content: space-between;
+        display: block;
+    }
+
+    #nav-filter{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #navbarScrollingDropdown{
+        margin-right: 25px;
+    }
+}
+
+@media screen and (width < 623px) {
+    .nav-search {
+        left: 10px;
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 1100px){
+    #navbarScroll{
+        justify-content: space-between;
+        display: block;
+    }
+}
+
+
+
+/* bodyPage */
+
+.bodyPageContainer-SP{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin-top:40px;
+    margin-bottom:30px;
+    padding-bottom: 10px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.paginationContainer-SP {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+@media only screen and (max-width:566px){       /* PROBLEM */
+    .paginationContainer-SP {
+        display: none;
+    }
+}
+
+.ServiceCardContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+   padding: 0px 66px;   
+    
+}
+
+
+
+.pagination-element{
+    font-size: 20px;
+    color: #5f7085;
+    cursor: pointer;
+    
+}
+
+.rating {
+    font-size: 24px; 
+    color: #dbdbd9; 
+   
+  }
+
+  .star.filled {
+    color: #f3b045; 
+  }
+
+  .SPRatings .ratereview{
+    font-weight: 500;
+  }
+  .SPRatings{
+    margin-top: 30px;
+  }
+
+
+
+
+/* spCard */
+
+.single-Service-card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    width: 90%;
+    height: 30%;
+    margin-bottom: 20px;
+    padding: 20px 20px 0 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform .3s;
+}
+
+.single-Service-card:hover{
+    transform: scale(1.005);
+    z-index: 2;
+    border: 0.2px solid #29435cf0;
+}
+
+.Service-card-avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    max-width: 100%;
+  display: block;
+}
+
+@media only screen and (max-width: 465px){          
+    .Service-card-avatar{
+     width: 80px;
+    height: 30px;
+    
+    border-radius: 15px;
+    }
+}
+
+.Service-card-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.Service-card-title1{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 1px;
+    margin-bottom: 2px;
+
+}
+
+.Service-card-date{
+    font-size: 14px;
+    font-weight: 400;
+    color: #5f7085;
+    margin-bottom: 0px;
+}
+
+.Service-card-viewmore{
+    font-size: 14px;
+    font-weight: 400;
+    color: #5f7085;
+    margin-bottom: 0px;
+}
+
+.Service-card-header i{
+    font-size: 14px;
+    font-weight: 400;
+    color: #5f7085;
+    margin-bottom: 0px;
+}
+
+#Single-item-Dropdown{
+    margin-right: 10px;
+}
+
+
+.Service-card-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.single-Service-status{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 4px 6px;
+    border: 2px solid rgb(37, 199, 37);
+    border-radius: 8px;
+}
+
+.single-Service-title{
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.sinlge-Service-sub-info{
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.Service-contact-info{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.single-Service-description{
+    font-size: 17px;
+    font-weight: 900;
+}
+
+.Service-card-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    bottom: 10px;
+    vertical-align: middle;
+}
+
+@media only screen and (max-width: 590px){
+    .Service-card-footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        position: relative;
+        bottom: 20px;
+    }
+}
+
+.Service-card-footer-btn{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    font-size: 12px;
+    font-weight: 620;
+    cursor: pointer;
+    margin: auto;
+}
+
+.Service-card-footer-btn:hover{
+    color: #5f7085;
+}

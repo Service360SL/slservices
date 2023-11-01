@@ -1,0 +1,239 @@
+/* bodyNav */
+
+@media screen and (max-width: 1200px) {
+    .body-nav-container{
+        flex-direction: column !important;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .body-nav-filter-container{
+        flex-direction: column !important;
+    }
+}
+
+
+/* body page */
+
+.bodyPageContainer-vacancy{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin-top:40px;
+    margin-bottom:30px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    padding-bottom: 10px;
+}
+
+.vacancyCardContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pagination-element{
+    font-size: 20px;
+    color: #5f7085;
+    cursor: pointer;
+    
+}
+
+
+
+
+
+/* vacancyCard */
+
+.single-vacancy-card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    width: 95%;
+    height: 30%;
+    margin-bottom: 20px;
+    padding: 20px 20px 0 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s;
+}
+
+.single-vacancy-card:hover{
+    transform: scale(1.003);
+    z-index: 2;
+    border: 0.2px solid #29435cf0;
+}
+
+.vacancy-card-avatar{
+    width: 65px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 465px){          
+    .vacancy-card-avatar{
+        width: 85px;
+        height: 30px;
+        border-radius: 20px;
+    }
+
+    .vacancy-card-tag-container{
+        flex-direction: column !important;
+    }
+}
+
+
+.vacancy-card-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.vacancy-card-title{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 1px;
+    margin-bottom:2px;
+}
+
+.vacancy-card-date{
+    font-size: 14px;
+    font-weight: 400;
+    color: #5f7085;
+    margin-bottom: 0px;
+}
+
+.vacancy-card-viewmore{
+    font-size: 14px;
+    font-weight: 400;
+    color: #5f7085;
+    margin-bottom: 0px;
+}
+
+.vacancy-card-header i{
+    font-size: 14px;
+    font-weight: 400;
+    color: #5f7085;
+    margin-bottom: 0px;
+}
+
+#Single-item-Dropdown{
+    margin-right: 10px;
+}
+
+.vacancy-card-tag-container{
+    flex-direction: row;
+}
+
+
+
+.vacancy-card-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+
+.single-vacancy-type{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 4px 6px;
+    border: 2px solid rgb(37, 199, 37);
+    border-radius: 8px;
+}
+
+.single-vacancy-title{
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.sinlge-vacancy-expiry-info{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.vacancy-location-info{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.single-vacancy-description{
+    font-size: 17px;
+    font-weight: 900;
+}
+
+
+/* @media only screen and (min-width: 424px) and (max-width: 428px){
+    .vacancy-card-footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        position: relative;
+        bottom: 20px;
+        vertical-align: middle;
+    }
+} */
+
+/* @media only screen and (min-width: 429px) and (max-width: 458px){
+    .vacancy-card-footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        position: relative;
+        bottom: 20px;
+    }
+} */
+
+.custom-pagination-vacancy .page-link {
+    color: #292D32;
+}
+
+/* newly added */
+
+@media only screen and (max-width: 650px) {
+    .vacancy-card-body-inner-flex{
+        flex-direction: column !important;
+    }
+}
+
+/* .vacancy-card-footer-btn{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    font-size: 12px;
+    font-weight: 620;
+    cursor: pointer;
+    margin: auto;
+}
+
+.vacancy-card-footer-btn:hover{
+    color: #5f7085;
+} */
+
+
+/* .vacancy-card-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    bottom: 5px;
+} */
+
+@media only screen and (max-width: 424px){
+    .vacancy-card-footer{
+        display: flex;
+        flex-direction: column !important;
+        justify-content: space-between;
+        width: 100%;
+        position: relative;
+        bottom: 4px;
+    }
+}

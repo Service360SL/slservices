@@ -1,0 +1,111 @@
+@media only screen and (max-width: 1200px) {
+    .spCalendar-container{
+        flex-direction: column !important;
+    }
+}
+
+
+
+
+
+/* Header */
+
+
+  
+  .changeMonth {
+    margin: 0px 20px;
+  }
+  
+  .SpCalendar-header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .currentMonth {
+    margin-left: 24px;
+    font-size: 24px;
+  }
+  
+  .weekContainer {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+  }
+  
+  .day {
+    margin: 12px;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
+  
+  .weekNames {
+    color: #9e9e9e;
+    cursor: default;
+  }
+  
+  .inactiveDay {
+    color: #9e9e9e;
+  }
+  .today {
+    background: #efefee;
+    border-radius: 50%;
+  }
+  
+  .selectedDay {
+    color: white;
+    background: #3366ff;
+    border-radius: 50%;
+  }
+  
+  .SpCalendar-navIcon {
+    width: 20px;
+    height: 20px;
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .SpCalendar-navIcon:hover {
+    border-radius: 50%;
+    background: #efefee;
+  }
+  
+  .SpCalendar-todayButton {
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-right: 8px;
+  }
+  
+  .todayButton:hover {
+    background: #efefef;
+  }
+
+
+  @media only screen and (max-width: 700px) {
+    .Sp-div-calendar{
+       overflow-x: scroll;
+    }
+  }
+
+  .day.hasSchedules {
+    background-color: #F0D787; /* Replace with your desired background color */
+  }
+
+  .day.today {
+    background-color: #77e177; /* Replace with your desired background color for today */
+  }
+
+  /* Light dark green color for dates with 1 or 2 schedules */
+  .day.hasFewSchedules {
+    background-color: #98caf6;
+  }
+
+  /* Dark red color for dates with 3 or more schedules */
+  .day.hasManySchedules {
+    background-color: #eb7e6f;
+  }

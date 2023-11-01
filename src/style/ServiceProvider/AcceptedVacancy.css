@@ -1,0 +1,56 @@
+/* Vacancy DETAILS */
+
+.AcceptedvacancyDetails-images-value-img{
+    width: 95%;
+    height: 95%;
+    object-fit: cover;
+    border-radius:7px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px #ccc;
+}
+
+@media only screen and (max-width:500px) {
+    .AcceptedvacancyDetails-images-container-box{
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    .AcceptedvacancyDetails-images-value-img{
+        margin-bottom: 10px;
+        
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .AcceptedvacancyDetails-Col-container{
+        flex-direction: column;
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .AcceptedvacancyDetails-title{
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:992px) {
+    .AcceptedvacancyDetails-title{
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (min-width:992px) {
+    .AcceptedvacancyDetails-details-container span{
+        font-size: 1.1rem;
+    }
+
+    .AcceptedvacancyDetails-title{
+        font-size: 1.7rem !important;
+    }
+}
+
+.AcceptedvacancyDetails-apply-btn{
+    font-size: 1.1rem;
+    cursor: pointer;
+}

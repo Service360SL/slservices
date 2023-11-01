@@ -1,0 +1,18 @@
+@media only screen and (max-width:576px){
+    .User-view-jobs-inner-flex{
+        flex-direction: column !important;
+    }
+}
+
+.user-single-job-card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    width: 84%;
+    height: 30%;
+    margin-bottom: 20px;
+    padding: 20px 20px 0 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform .3s;
+    background-color: rgb(222, 224, 224);
+}

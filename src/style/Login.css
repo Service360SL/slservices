@@ -1,0 +1,21 @@
+/* styles.css */
+.modal-header .btn-close {
+  background-color: #fff; 
+  color: #fff; 
+  opacity: 1; 
+}
+
+.modal-header .btn-close:hover {
+  background-color: #ffffff; 
+  color: #fff;
+  opacity: 0.6;  
+}
+
+.custom-link {
+  font-weight: bold;
+  color: #000 !important;
+}
+
+.custom-link:hover {
+  color: #f64b4b !important;
+}

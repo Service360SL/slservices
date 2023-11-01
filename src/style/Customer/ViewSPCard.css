@@ -1,0 +1,259 @@
+
+  .SPRatings .ratereview{
+    font-weight: 500;
+  }
+  .SPRatings{
+    margin-top: 30px;
+  }
+#navbarScroll{
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+}
+
+.nav-search{
+    position: relative;
+    left: 6px;
+    display: flex;
+}
+
+#view-sp-button {
+    position: relative;
+    left: -12px;
+    background-color: #5f7085;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    border-radius:40px;
+    border-radius: 0px 8px 8px 0px;
+    cursor: pointer;
+  }
+
+@media only screen and (min-width:623px) and (max-width: 1100px){
+    #navbarScroll{
+        justify-content: space-between;
+        display: block;
+    }
+
+    #nav-filter{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #navbarScrollingDropdown{
+        margin-right: 25px;
+    }
+}
+
+@media screen and (width < 623px) {
+    .nav-search {
+        left: 10px;
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 1100px){
+    #navbarScroll{
+        justify-content: space-between;
+        display: block;
+    }
+}
+
+.bodyPageContainer-SP{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin-top:40px;
+    margin-bottom:30px;
+    padding-bottom: 10px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+/* .paginationContainer-SP {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+} */
+
+@media only screen and (max-width:566px){       
+    .paginationContainer-SP {
+        display: none;
+    }
+}
+
+.SPCardContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    height: fit-content;
+}
+
+.pagination-element{
+    font-size: 20px;
+    color: #5f7085;
+    cursor: pointer;
+    
+}
+
+.single-SP-card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    width: 90%;
+    height: 45% ;
+    margin-bottom: 30px;
+    padding: 20px 20px 0 20px;
+    box-shadow: 0 4px 8px rgba(116, 112, 112, 0.2);
+    transition: transform 0.4s ease-in-out, background-color 0.3s ease-in-out; 
+   
+   
+}
+
+/* .single-SP-card:hover{
+    background-color: none;
+    cursor: pointer;
+    transform: scale(1.1);
+ } */
+
+.SP-card-avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+}
+
+@media only screen and (max-width: 465px){          
+    .SP-card-avatar{
+         width: 85px;
+    height: 30px;
+    border-radius: 15px;
+    }
+}
+
+.SP-card-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.SP-card-title{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 1px;
+    margin-bottom: 2px;
+}
+
+/* .SP-card-title .firstname,
+.SP-card-title .lastname{
+    justify-content: inline;
+} */
+
+
+.SP-card-date{
+    font-size: 14px;
+    font-weight: 400;
+    color: #5f7085;
+    margin-bottom: 0px;
+}
+
+.SP-card-viewmore{
+    font-size: 14px;
+    font-weight: 400;
+    color: #5f7085;
+    margin-bottom: 0px;
+}
+
+.SP-card-header i{
+    font-size: 14px;
+    font-weight: 400;
+    color: #5f7085;
+    margin-bottom: 0px;
+}
+
+#Single-item-Dropdown{
+    margin-right: 10px;
+}
+
+
+.SP-card-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.single-SP-status{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 4px 6px;
+    border: 2px solid rgb(37, 199, 37);
+    border-radius: 8px;
+}
+
+.single-SP-title{
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.sinlge-SP-sub-info{
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.SP-contact-info{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.single-SP-description{
+    font-size: 17px;
+    font-weight: 900;
+}
+
+.SP-card-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    bottom: 10px;
+    vertical-align: middle;
+}
+
+@media only screen and (max-width: 590px){
+    .SP-card-footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        position: relative;
+        bottom: 20px;
+    }
+}
+
+.SP-card-footer-btn{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    font-size: 12px;
+    font-weight: 620;
+    cursor: pointer;
+    margin: auto;
+    border: none;
+}
+
+.SP-card-footer-btn:hover{
+    color: #5f7085;
+    border: none;
+}
+
+.rating {
+    font-size: 24px; 
+    color: #3d3d3d;
+  }
+

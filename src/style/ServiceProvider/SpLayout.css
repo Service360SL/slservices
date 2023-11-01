@@ -1,0 +1,24 @@
+.classoutlet{
+    margin-left: 4rem;
+    margin-right: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+@media  only screen and (max-width:395px) {
+    .classoutlet{
+        margin-left: 3rem;
+        margin-right: 3rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+}
+
+@media  only screen and (max-width:379px) {
+    .classoutlet{
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+}

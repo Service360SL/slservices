@@ -1,0 +1,32 @@
+.training-nav-input {
+    border-radius: 0;
+    border: 1px solid #ced4da;
+  }
+
+input{
+    border-radius:0;
+}
+
+@media only screen and (max-width:576px) {
+    .training-nav-container{
+        flex-direction: column !important;
+    }
+
+    .training-nav-datepicker-container{
+        margin-top: 10px;
+    }
+}
+
+.btn-My-Training-ServiceProvider-2 {
+    background: #292d32 !important;
+    color: white !important;
+    font-size: 1rem !important;
+    --bs-btn-padding-x: 0.25rem;
+    --bs-btn-padding-y: 0.25rem;
+  }
+  
+.btn-My-Training-ServiceProvider-2:hover {
+    background: #fff !important;
+    border-color: #2596be !important;
+    color: #9f390d !important;
+  }

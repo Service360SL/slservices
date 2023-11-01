@@ -1,0 +1,61 @@
+@media only screen and (max-width:575px) {
+    .AddServiceForm-Head-SubTitle{
+        border:none;
+        font-size: 16.5px;
+        font-weight:500;
+        color:black;
+        padding: 0px !important;
+    }
+
+    .AddServiceForm-Head-Title{
+        font-size:24px;
+        font-weight:600;
+    }
+}
+
+@media only screen and (min-width:576px){
+    .AddServiceForm-Head-Title{
+        font-size:27px;
+        font-weight:600;
+    }
+
+    .AddServiceForm-Head-SubTitle{
+        color:white;
+        font-size:17.5px;
+        border-radius: 10px;
+        background:#59789a;
+    }
+}
+
+
+
+
+/* AddServiceForm */
+
+.custom-font{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 550;
+}
+
+.custom-font .form-check-label{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+}
+
+.custom-checkbox .form-check-input[type="checkbox"] {
+    border: 1px solid #000; /* Customize the border color and width as needed */
+  }
+
+@media only screen and (max-width:420px) {
+    .AddNewService-button-container{
+        flex-direction: column !important;
+    }
+    .AddServiceForm-cancel{
+        width: 100% !important;
+        margin-top: 5px;
+    }
+}
+
+/* .AddServiceForm-hr{
+    width:20%;
+} */

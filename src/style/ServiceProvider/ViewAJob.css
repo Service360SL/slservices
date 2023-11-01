@@ -1,0 +1,68 @@
+/* JOB DETAILS */
+
+.jobDetails-images-value-img{
+    width: 95%;
+    height: 95%;
+    object-fit: cover;
+    border-radius:7px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px #ccc;
+}
+
+@media only screen and (max-width:500px) {
+    .jobDetails-images-container-box{
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    .jobDetails-images-value-img{
+        margin-bottom: 10px;
+        
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .JobDetails-Col-container{
+        flex-direction: column;
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .jobDetails-title{
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:992px) {
+    .jobDetails-title{
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (min-width:992px) {
+    .jobDetails-details-container span{
+        font-size: 1.1rem;
+    }
+
+    .jobDetails-title{
+        font-size: 1.7rem !important;
+    }
+}
+
+.jobDetails-apply-btn{
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+
+/* COMMENT SECTION */
+
+.commentSection-comment-container{
+    transition: transform .3s;
+}
+
+.commentSection-comment-container:hover{
+    background-color: #f5f5f5;
+    transform: scale(1.01);
+}

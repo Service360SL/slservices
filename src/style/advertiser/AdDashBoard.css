@@ -1,0 +1,76 @@
+.AdPageHeading {
+  margin-top: 1em;
+  font-weight: bolder;
+}
+
+.AdCountCol {
+  width: 15em;
+  display: grid;
+  justify-content: center;
+}
+@media (max-width: 768px) {
+  .adDashCountDiv {
+    display: grid;
+  }
+
+  .AdsRow {
+  }
+}
+
+.adNo:hover,
+.adRejNo:hover {
+  scale: 1.1;
+}
+
+.AdTotal {
+  all: unset;
+  font-size: 2em;
+}
+
+.adNo,
+.adRejNo {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 4em;
+}
+
+.adRejNo {
+  color: #9f390d;
+}
+
+.PostAd {
+  all: unset;
+  font-size: 1em;
+  background-color: #292d32;
+  color: #ffffff;
+  font-weight: bold;
+  width: 7em;
+  height: 3em;
+  text-align: center;
+  border-radius: 0.5em;
+}
+
+.PostAd:hover {
+  color: #292d32;
+  background-color: #ffffff;
+  border: 2px solid #292d32;
+}
+
+.rejectP {
+  font-weight: bold;
+  /* font-size: ; */
+  color: #9f390d;
+}
+
+.AdVrifiedP {
+  color: #048a2c;
+  width: fit-content;
+}
+
+.GreenDate{
+    color: #048a2c;
+}
+
+.redDate{
+    color: #9f390d;
+}

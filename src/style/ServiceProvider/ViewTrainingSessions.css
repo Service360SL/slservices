@@ -1,0 +1,268 @@
+.MyProjectsNav-Row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 1px #e6e6e6;
+}
+
+@media only screen and (min-width: 996px) {
+    .MyProjects-top-nav{
+        height:47px;
+    }
+}
+
+.MyTraining-nav-button{
+    position: relative;
+    left: -12px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 0px 8px 8px 0px;
+    cursor: pointer;
+
+    background: #292d32 !important;
+    color: #fff !important;
+}
+
+.MyTraining-nav-button:hover{
+    background: #fff !important;
+    border-color: #2596be !important;
+    color: #9f390d !important;
+}
+
+@media only screen and (max-width: 825px) {
+    .MyTraining-search{
+        width: 100%;
+    }
+    .MyTraining-nav-button{
+        left: -5px !important;
+    }
+    .MyTraining-nav-search{
+        position: relative;
+        left:5px;
+    }
+}
+
+#navbar-filter{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+/* my-jobCard */
+
+.single-my-training-card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    width: 95%;
+    height: 31.5%;
+    margin-bottom: 20px;
+    padding: 20px 20px 0 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform .3s;
+}
+
+.single-my-training-card:hover{
+    transform: scale(1.005);
+    z-index: 2;
+    border: 0.2px solid #29435cf0;
+}
+
+.my-training-card-avatar{
+    width: 45px;
+    height: 42px;
+    border-radius: 20px;
+    position: relative;
+    top:5.5px;
+}
+
+@media only screen and (max-width: 465px){          
+    .my-training-card-avatar{
+        width: 42px;
+        height: 40px;
+        border-radius: 20px;
+        position: relative;
+        top:5.5px;
+    }
+}
+
+.my-training-card-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.my-training-card-header-inner-col{
+    display: flex;
+    flex-direction: column !important;
+    justify-content: space-between;
+    width: 100% !important;
+    margin-bottom: 15px;
+    margin: 0px;
+}
+
+.my-training-card-title{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 1px;
+    margin-bottom: 2px;
+}
+
+.my-training-card-date{
+    font-size: 14px;
+    font-weight: 400;
+    color: #5f7085;
+    margin-bottom: 0px;
+}
+
+.my-training-card-viewmore{
+    font-size: 14px;
+    font-weight: 400;
+    color: #5f7085;
+    margin-bottom: 0px;
+}
+
+.my-training-card-header i{
+    font-size: 14px;
+    font-weight: 400;
+    color: #5f7085;
+    margin-bottom: 0px;
+}
+
+#Single-item-Dropdown{
+    margin-right: 10px;
+}
+
+
+.my-training-card-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.single-my-training-status{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 4px 6px;
+    border: 2px solid rgb(37, 199, 37);
+    border-radius: 8px;
+}
+
+.single-my-training-title{
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.single-my-training-info{
+    font-size: 17px;
+    font-weight: 900;
+}
+
+.single-my-training-time{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.single-my-training-intrested{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.single-my-training-going{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.my-training-location-info{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.single-my-training-description{
+    font-size: 17px;
+    font-weight: 900;
+}
+
+.my-training-card-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    bottom: 10px;
+    vertical-align: middle;
+}
+
+@media only screen and (max-width: 590px){
+    .my-training-card-footer{
+        display: flex;
+        flex-direction: column !important;
+        justify-content: space-between;
+        width: 100%;
+        position: relative;
+        /* bottom: 20px; */
+    }
+}
+
+.my-training-card-footer-btn{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    font-size: 12px;
+    font-weight: 620;
+    cursor: pointer;
+    margin: auto;
+}
+
+.my-training-card-footer-btn:hover{
+    color: #5f7085;
+}
+
+.view-training-image{
+  max-width: 100%;
+  height: 198px;
+  text-emphasis: center;
+}
+
+.single-traning-guests{
+    border-radius: 10px;
+}
+
+.single-my-training-guests{
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.single-my-training-intrested{
+    text-align: center;
+    border-radius: 0px 0px 0px 10px;
+}
+
+.single-my-training-going{
+    text-align: center;
+    border-radius: 0px 0px 10px 0px;
+}
+
+.custom-training-row {
+    --bs-gutter-x: 0;
+}
+
+
+/* SPINNER */
+.fa-spin-trainingsession-sp {
+    animation: fa-spin 1s infinite linear;
+    position: fixed;
+    left: 50%;
+  }

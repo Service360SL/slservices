@@ -1,0 +1,15 @@
+@import url(AdDashBoard.css);
+@import url(AdsPage.css);
+@import url(CreateAd.css);
+@import url(Forum.css);
+@import url(ForumQuestion.css);
+@import url(Subscription.css);
+@import url(ViewAd.css);
+@import url(notification.css);
+
+
+
+
+body{
+    font-family: 'Rubik', sans-serif;
+}

@@ -1,0 +1,67 @@
+/* .rating-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+} */
+
+/* .rating-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+} */
+
+/* 
+.star-icon {
+ }
+
+.rating-bar {
+
+}
+
+.fill-bar {
+ 
+} */
+
+/* .rating-info {
+ 
+  text-align: right;
+  margin-left: 10px;
+} */
+
+
+/* @media (max-width: 768px) {
+  .rating-list li {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .rating-bar {
+    width: 100%;
+  }
+
+  .rating-info {
+    margin: 5px 0 0;
+    flex-basis: auto;
+  }
+} */
+
+
+/* .custom-datepicker {
+  display: flex;
+  align-items: center;
+}
+
+.custom-datepicker .react-datepicker__input-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+.custom-datepicker .react-datepicker__input-container input {
+  border: none;
+  outline: none;
+} */
+
+  

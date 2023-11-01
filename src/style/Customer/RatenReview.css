@@ -1,0 +1,80 @@
+.rnrmodaldialog {
+    width: 50%;
+    max-width: 400px;
+    height: 70%;
+}
+
+.rnrheader {
+    background-color: black;
+    color: white;
+    height: 40px;
+}
+
+.rnrtitle{
+    font-size: 16px;
+}
+.rnrbody,
+.rnrfooter {
+    background-image: url("../../assets/images/header/Background.png");
+}
+
+.rnrcontent {
+    margin-top: 10px;
+}
+
+.rnrcontent p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 10px;
+}
+
+.rnrtextarea {
+    resize: vertical;
+    min-height: 60px;
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.rnrrating-stars {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.solid-star {
+    color: gold;
+}
+
+.regular-star {
+    color: gray;
+}
+
+.rnrbtn {
+    display: flex;
+  
+}
+
+.rnrbtn1,
+.rnrbtn2 {
+  display: flex;
+  justify-content: center;
+  background-color: #292d32;
+  color: #fff;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.rnrbtn1:hover,
+.rnrbtn2:hover{
+  background-color: #fff;
+  border-color: #2596be;
+  color: #9f390d;
+}

@@ -1,0 +1,111 @@
+.AdsHome-mainCont{
+    /* display: fel;
+    flex-direction: column; */
+}
+.AdsHome-right-cont{
+    background-color:#ffffff;
+    padding: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 768px) {
+
+    .AdsHome-left-cont{
+        padding: 2em;
+    }
+    .AdsHome-right-cont{
+        margin-top: 1em;
+    }
+
+}
+
+
+.AdsHome-left-cont{
+    background-color: #d9d9d9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.AdSampleCont{
+    background-color:#ffffff;
+    padding-left: 1em;
+    padding-right: 1em;
+    height: max-content;
+    max-width:18em;
+    box-shadow: 0 0px 8px rgba(0, 0, 0, 0.1);
+}
+
+.AdProfilePic{
+    border-radius: 50%; 
+    width: 2em;
+    clip-path: circle();
+}
+
+.namediv > p{
+    margin-top: 1em;
+    margin-left: 0.2em;
+    
+}
+
+.adname{
+    text-align: center;
+}
+
+
+.Adprice{
+    color: #292D32;
+    font-weight: bold;
+
+}
+
+.AdViewButton{
+    all: unset;
+    background-color: #292D32;
+    color: #ffffff;
+    font-weight: bold;
+    width:5em;
+    height: 2em;
+    text-align: center;
+    border-radius: 0.5em;
+}
+
+.AdViewButton:hover{
+    background-color: #ffffff;
+    border: 1px solid #292D32;
+    color: black;
+}
+
+.adCenterCont{
+    display: flex;
+    justify-content: center;
+
+}
+
+.AdRgtAln{
+    text-align: right;
+}
+
+
+.AdBrowseBut{
+    background-color: #ffffff;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    color: #357DEA;
+    font-weight: bold;
+    border: 1px solid #357DEA;
+    
+}
+
+.CreateAdInput{
+    background-color: unset;
+}
+
+.BrowseImageInput{
+    /* all:unset; */
+    
+    /* background-color: #292D32; */
+}
+
+.AddeleteImg:hover{
+scale: 1.1;
+}
+

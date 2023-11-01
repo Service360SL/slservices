@@ -1,0 +1,146 @@
+/* .AdSubCont{
+  border: 1px solid #000000;
+  border-radius: 1em;
+} */
+
+.AdSubDiv {
+  /* all: unset; */
+  background-color: unset;
+  border: 1px solid #000000;
+  border-radius: 1em;
+  width: 20em;
+}
+
+@media screen and (max-width: 768px) {
+  .MainAdSubDiv {
+    flex-direction: column;
+    align-items: center;
+    /* width: 2em ; */
+  }
+
+  .AdSubDiv {
+    max-width: 16em;
+    /* width: 100%;  */
+  }
+
+  .AdBillDetailsP{
+    margin-top: 1em;
+    font-size:0.5em;
+  }
+
+  @media screen and (max-width: 422px) {
+    .AdSubDiv {
+      max-width: 10em;
+      /* width: 100%;  */
+    }
+
+    .AdsubH {
+      font-size: 1.4em;
+    }
+
+    .AdMP {
+      font-size: 0.8em;
+    }
+  }
+}
+
+.AdsubH{
+  margin: unset;
+}
+
+.SubP {
+  all: unset;
+}
+
+.ChooseSubBut {
+  background-color: #292D32;
+  border-radius: 0.3em;
+  color: #FFFFFF;
+}
+
+
+
+.AdSubCarFoot {
+  background-color: unset;
+}
+
+
+.AdSubDiv:hover{
+  scale: 1.05;
+  color: #FFFFFF;
+  background-color: #292D32;
+
+ 
+}
+
+.AdSubDiv:hover .ChooseSubBut{
+  border:2px solid #FFFFFF;
+  font-weight: bold;
+  
+}
+
+.AdMP{
+  color: #645e5e;
+}
+
+.AdSubDiv:hover .AdMP{
+  color: #c9c4c4;
+}
+
+.ChooseSubBut:hover{
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.selectedAdSub {
+  background-color: #292D32;
+  color: #FFFFFF;
+  scale: 1.05;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.selectedAdSub .ChooseSubBut {
+  border: 2px solid #FFFFFF;
+  font-weight: bold;
+}
+
+.selectedAdSub .AdMP {
+  color: #c9c4c4;
+}
+
+.selectedAdSub .ChooseSubBut:hover {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.AdSubPriceP{
+  font-size: larger;
+  font-weight: bold;
+
+}
+
+.AdBillDetails{
+  margin-top: 3em;
+  width: 100%;
+  background-image: url("./../../assets/images/header/Background.png");
+  background-repeat: repeat-x;
+  background-position: right bottom; 
+}
+
+.AdBillDetailsP{
+  margin-top: 1em;
+  font-size:large;
+}
+
+
+.AdSubCard{
+  scale: 1.05;
+  color: #FFFFFF;
+  background-color: #292D32;
+  width: fit-content;
+
+}
+
+ .AdCardMP{
+  color: #c9c4c4;
+}

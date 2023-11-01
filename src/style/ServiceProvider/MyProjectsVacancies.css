@@ -1,0 +1,201 @@
+@media only screen and (max-width: 552px) {
+    .MyProjectsSearch{
+        width: 100%;
+    }
+
+    .MyProjects-bottom-nav{
+        flex-direction: column !important;
+    }
+}
+
+/* my-vacancyCard */
+
+.single-my-vacancy-card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    width: 30%;
+    height: 30%;
+    margin-bottom: 20px;
+    padding: 20px 20px 0 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform .3s;
+}
+
+@media only screen and (max-width: 900px) {
+    .single-my-vacancy-card{
+        width: 100% !important;
+    }
+}
+
+.single-my-vacancy-card:hover{
+    transform: scale(1.005);
+    z-index: 2;
+    border: 0.2px solid #29435cf0;
+}
+
+.my-vacancy-card-avatar{
+    width: 45px;
+    height: 42px;
+    border-radius: 20px;
+    position: relative;
+    top:5.5px;
+}
+
+@media only screen and (max-width: 465px){          
+    .my-vacancy-card-avatar{
+        width: 42px;
+        height: 40px;
+        border-radius: 20px;
+        position: relative;
+        top:5.5px;
+    }
+}
+
+.my-vacancy-card-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.my-vacancy-card-header-inner-col{
+    display: flex;
+    flex-direction: column !important;
+    justify-content: space-between;
+    width: 100% !important;
+    margin-bottom: 15px;
+    margin: 0px;
+}
+
+
+.my-vacancy-card-title{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 1px;
+    margin-bottom: 2px;
+}
+
+.my-vacancy-card-company{
+    font-size: 15px;
+    font-weight: 450;
+    color: #5f7085;
+    margin-bottom: 0px;
+}
+
+.my-vacancy-card-time{
+    font-size: 14px;
+    font-weight: 450;
+    color: #5f7085;
+    margin-bottom: 0px;
+}
+
+
+.my-vacancy-card-viewmore{
+    font-size: 14px;
+    font-weight: 400;
+    color: #5f7085;
+    margin-bottom: 0px;
+}
+
+.my-vacancy-card-header i{
+    font-size: 14px;
+    font-weight: 400;
+    color: #5f7085;
+    margin-bottom: 0px;
+}
+
+#Single-item-Dropdown{
+    margin-right: 10px;
+}
+
+
+.my-vacancy-card-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.single-my-vacancy-status{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 4px 6px;
+    border: 2px solid rgb(37, 199, 37);
+    border-radius: 8px;
+}
+
+.single-my-vacancy-title{
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.sinlge-my-vacancy-sub-info{
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.my-vacancy-location-info{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.single-my-vacancy-description{
+    font-size: 17px;
+    font-weight: 900;
+}
+
+/* .my-vacancy-card-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    bottom: 10px;
+    vertical-align: middle;
+} */
+
+@media only screen and (max-width: 750px){
+    .my-vacancy-card-footer{
+        display: flex;
+        flex-direction: column !important;
+        justify-content: space-between;
+        width: 100%;
+        position: relative;
+        bottom: 16.5px;
+        margin-top: 15px;
+    }
+}
+
+.my-vacancy-card-footer-btn{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    font-size: 12px;
+    font-weight: 620;
+    cursor: pointer;
+    margin: auto;
+}
+
+.my-vacancy-card-footer-btn:hover{
+    color: #5f7085;
+}
+
+
+
+
+@media only screen and (max-width: 565px){          
+    .vacancy-card-header-inner-container{
+        flex-direction: column !important;
+    }
+
+    /* .rounded-circle{
+        margin-left: -30px;
+    } */
+
+    .my-projects-vacancies-rounded-circle{
+        margin-left: -30px;
+    }
+}

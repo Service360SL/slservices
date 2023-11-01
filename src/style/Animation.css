@@ -1,0 +1,20 @@
+/* It Used in Animation Reveal.js in helpers folder */
+
+.container-wrapper-lg {
+  display: none;
+}
+
+.container-wrapper-sm {
+  
+  display: block; 
+}
+
+@media (min-width: 992px) {
+  .container-wrapper-lg {
+    display: block;
+  }
+
+  .container-wrapper-sm {
+    display: none; 
+  }
+}

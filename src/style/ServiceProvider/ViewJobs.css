@@ -1,0 +1,238 @@
+/* bodyNav */
+
+@media screen and (max-width: 1200px) {
+    .body-nav-container{
+        flex-direction: column !important;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .body-nav-filter-container{
+        flex-direction: column !important;
+    }
+}
+
+
+
+/* bodyPage */
+
+.bodyPageContainer-jobs{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin-top:40px;
+    margin-bottom:30px;
+    padding-bottom: 10px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+
+.jobCardContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pagination-element{
+    font-size: 20px;
+    color: #5f7085;
+    cursor: pointer;
+    
+}
+
+
+
+
+/* jobCard */
+
+.single-job-card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    width: 95%;
+    height: 30%;
+    margin-bottom: 20px;
+    padding: 20px 20px 0 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform .3s;
+}
+
+.single-job-card:hover{
+    transform: scale(1.003);
+    z-index: 2;
+    border: 0.2px solid #29435cf0;
+}
+
+.job-card-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.job-card-title{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 1px;
+    margin-bottom: 2px;
+}
+
+.job-card-date{
+    font-size: 14px;
+    font-weight: 400;
+    color: #5f7085;
+    margin-bottom: 0px;
+}
+
+.job-card-viewmore{
+    font-size: 14px;
+    font-weight: 400;
+    color: #5f7085;
+    margin-bottom: 0px;
+}
+
+.job-card-header i{
+    font-size: 14px;
+    font-weight: 400;
+    color: #5f7085;
+    margin-bottom: 0px;
+}
+
+#Single-item-Dropdown{
+    margin-right: 10px;
+}
+
+
+.job-card-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.single-job-status{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 4px 6px;
+    border: 2px solid rgb(37, 199, 37);
+    border-radius: 8px;
+}
+
+.vacancy-job{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 4px 6px;
+    border: 2px solid rgb(37, 148, 199);
+    border-radius: 8px;
+}
+
+.single-job-title{
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.sinlge-job-sub-info{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.job-location-info{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.single-job-description{
+    font-size: 17px;
+    font-weight: 900;
+}
+
+/* newly added */
+
+
+.job-card-avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+}
+
+@media only screen and (max-width: 565px){          
+    .job-card-header-inner-container{
+        flex-direction: column !important;
+    }
+
+    /* .rounded-circle{
+        margin-left: -30px;
+    } */
+    
+    .view-jobs-rounded-circle{
+        margin-left: -30px;
+    }
+}
+
+
+/* .job-card-footer-btn{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    font-size: 12px;
+    font-weight: 620;
+    cursor: pointer;
+    margin: auto;
+}
+
+.job-card-footer-btn:hover{
+    color: #5f7085;
+} */
+
+
+
+/* .view-jobs-card-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    bottom: 5px;
+    vertical-align: middle;
+} */
+
+@media only screen and (max-width: 750px){
+    .view-jobs-card-footer{
+        display: flex;
+        flex-direction: column !important;
+        justify-content: space-between;
+        width: 100%;
+        position: relative;
+        bottom: 16.5px;
+        margin-top: 15px;
+    }
+
+    .job-card-footer-btn{
+        width: 100%;
+    }
+
+    .view-jobs-page-btn-label{
+        display: none !important;
+    }
+}
+
+.view-jobs-page-btn-label {
+    position: relative;
+    left: -12px;
+    display: inline-block;
+    padding: 6px 12px;
+    background: rgba(0,0,0,0.10);
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .view-jobs-page-btn-labeled {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  

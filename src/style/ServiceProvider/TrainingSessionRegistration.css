@@ -1,0 +1,16 @@
+.Training-Registration-Container {
+    height: 80%;
+}
+
+.Training-Registration-Inner-Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100% !important;
+}
+
+.Training-session-registration-body{
+    font-weight: 600;
+    font-size: 1.3rem;
+}

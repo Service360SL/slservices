@@ -1,0 +1,324 @@
+
+/*.selectionpanel{
+  display: flex;
+  align-items: center;
+}
+.custom-button {
+    display: flex;
+    background-color: #fff;
+    color: rgb(13, 13, 77); 
+    padding: 8px 20px;
+    font-size: 16px;
+    font-weight: 800;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.2s;
+  }
+
+.custom-button:hover {
+    background-color: #f5f5f5; 
+  }
+
+  
+.icon{
+    margin-right: 8px;
+}
+
+
+.profile-box {
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .profile-details{
+    margin-top: 0.5rem;
+    margin-left: 20px;
+    font-family: roboto;
+  }
+
+  .profile-details .name {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: roboto;
+    line-height: 0.5rem;
+  }
+
+  .profile-details .cate{
+    line-height: 1.5rem;
+    color: rgb(0, 0, 0);
+    font-family: 'roboto';
+    font-size: 14px;
+  }
+
+  .profile-details .date {
+    color: rgb(187, 187, 202); 
+    font-size: 14px;
+    font-family: roboto;
+  }
+
+  .profile-details .phone_no{
+    font-size: 14px;
+    font-family: roboto;
+    line-height: 1px;
+  }
+  
+  .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+  }
+  
+  .bottombutton1{
+    display: flex;
+    background-color: rgb(58, 56, 56);
+    color: white;
+    width: 100px;
+    margin-top: 100px;
+    padding: 5px 15px;
+    font-size: 12px;
+    font-weight: 800;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.2s;
+  }
+
+  .bottombutton2{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(58, 56, 56);
+    color: white;
+    width: 100px;
+    margin-top: 100px;
+    margin-left: 50px;
+    padding: 5px 15px;
+    font-size: 12px;
+    font-weight: 800;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.2s;
+
+  } 
+
+  .bottombutton2:hover, .bottombutton1:hover {
+    background-color: #535151; 
+  }
+  */
+  body {
+    background-color: #f2f2f2; 
+  }
+  
+  .selectionpanel {
+    display: flex;
+    align-items: center;
+  } 
+  
+  .custom-button,
+  .custom-button2 {
+    display: flex;
+    background-color: #fff;
+    color: rgb(13, 13, 77);
+    padding: 8px 20px;
+    font-size: 16px;
+    font-weight: 800;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.2s;
+    margin-left: 20px;
+    white-space: nowrap;
+  } 
+
+  .custom-button2{
+    margin-left: 45%;
+  }
+  
+  .custom-button:hover {
+    background-color: #a19c9c;
+  }
+  
+  .icon {
+    margin-right: 8px;
+  }
+  
+  .bodyPageContainer-SP{
+    display: flex;
+    background-image: url("../../assets/images/header/Background.png");
+    border: 1px solid #ccc;
+    padding: 2px;
+    border-radius: 10px;
+    height: 100%;
+   
+   
+  }
+  .profile-box {
+    background-color: white;
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(83, 79, 79, 0.2);
+    padding: 0px 0px;
+  }
+  
+  .profile-details {
+    margin-top: 0.5rem;
+    margin-left: 10px;
+    font-family: roboto;
+  }
+  
+  .profile-details .name {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: roboto;
+    line-height: 0.5rem;
+  }
+  
+  .profile-details .cate {
+    line-height: 1.5rem;
+    color: rgb(0, 0, 0);
+    font-family: 'roboto';
+    font-size: 14px;
+  }
+  
+  .profile-details .date {
+    color: rgb(187, 187, 202);
+    font-size: 14px;
+    font-family: "roboto";
+  }
+  
+  .profile-details .phone_no {
+    font-size: 14px;
+    font-family: roboto;
+    line-height: 1px;
+  }
+  
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+    margin-top: 20px;
+    padding: 10px;
+  }
+   
+  /*filter*/
+  .bottombutton2{
+    margin-left: 50px;
+  }
+  
+  .bottombutton2,
+  .bottombutton1 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(58, 56, 56);
+    color: rgb(255, 255, 255);
+    margin-top: 70px;
+    padding: 5px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.2s;
+  }
+  
+  .bottombutton2:hover,
+  .bottombutton1:hover {
+    background-color: #535151;
+  }
+  
+  /* Media Query for Small Screens */
+  @media (max-width: 768px) {
+    .button {
+      margin-left: 0;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .bottombutton2,
+    .bottombutton1 {
+      margin: 10px 0;
+    }
+  }
+
+  /* Apply black background and white text color to the pagination container */
+.paginationContainer-customer {
+  display: flex;
+  justify-content: center;
+}
+
+/* Apply styles to pagination elements */
+.pagination-element-customer li a {
+  color: white;
+  background-color: black;
+  text-decoration: none;
+  padding: 5px 10px;
+  border: 1px solid black;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+/* Apply styles on hover */
+.pagination-element-customer li a:hover {
+  background-color: #333;
+  border-color: #333;
+  color: #ffffff;
+}
+
+/* Apply styles to active page */
+.pagination-element-customer .active a {
+  background-color: #989ea5;
+  color: white;
+  border-color: #989ea5;
+}
+
+/* .card-container-fixed-height {
+  height: auto; 
+  overflow-y: auto; 
+} */
+
+.no-results{
+  display: flex;
+  justify-content: center;
+  color: grey;
+  font-size: 20px;
+  gap: 10px;
+}
+
+.error-icon{
+  margin-top: 6.5px;
+}
+
+
+
+
+
+  
+  
+ 
+
+  
+  
+
+ 
+
+
+ 
+  
+
+
+
+
+  

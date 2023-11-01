@@ -1,0 +1,19 @@
+.history-nav-input {
+    border-radius: 0;
+    border: 1px solid #ced4da;
+  }
+
+  
+input{
+    border-radius:0;
+}
+
+@media only screen and (max-width:576px) {
+    .history-nav-container{
+        flex-direction: column !important;
+    }
+
+    .history-nav-datepicker-container-2{
+        margin-top: 10px;
+    }
+}
